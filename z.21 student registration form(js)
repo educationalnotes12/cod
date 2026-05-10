@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Registration Form</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        form{
+            background-color: white;
+            width: 300px;
+            padding: 20px;
+            margin: auto;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <form onsubmit="return validateForm()">
+
+        <h2>Student Registration</h2>
+
+        Name:
+        <input type="text" id="name">
+
+        <br><br>
+
+        Email:
+        <input type="text" id="email">
+
+        <br><br>
+
+        Password:
+        <input type="password" id="password">
+
+        <br><br>
+
+        Confirm Password:
+        <input type="password" id="cpassword">
+
+        <br><br>
+
+        Phone Number:
+        <input type="text" id="phone">
+
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+    <script>
+
+        function validateForm(){
+
+            var name =
+            document.getElementById("name").value;
+
+            var email =
+            document.getElementById("email").value;
+
+            var password =
+            document.getElementById("password").value;
+
+            var cpassword =
+            document.getElementById("cpassword").value;
+
+            var phone =
+            document.getElementById("phone").value;
+
+            if(name=="" || email=="" || password=="" || cpassword=="" || phone==""){
+
+                alert("All fields are required");
+
+                return false;
+            }
+
+            if(email.indexOf("@")==-1){
+
+                alert("Invalid Email");
+
+                return false;
+            }
+
+            if(password != cpassword){
+
+                alert("Passwords do not match");
+
+                return false;
+            }
+
+            if(phone.length != 10){
+
+                alert("Enter 10 digit phone number");
+
+                return false;
+            }
+
+            alert("Registration Successful");
+
+            return true;
+        }
+
+    </script>
+
+</body>
+
+</html>
