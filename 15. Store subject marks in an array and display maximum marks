@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Student Marks</h2>
+
+<?php
+
+$marks = array(85, 90, 78, 88, 95);
+
+$total = array_sum($marks);
+
+$percentage = $total / count($marks);
+
+$max = max($marks);
+
+echo "Marks: ";
+
+foreach($marks as $m){
+
+    echo $m . " ";
+
+}
+
+echo "<br><br>";
+
+echo "Maximum Marks: " . $max;
+
+echo "<br><br>";
+
+echo "Percentage: " . $percentage . "%";
+
+?>
+
+</body>
+
+</html>
