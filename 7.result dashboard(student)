@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Student Result Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        table{
+            width: 60%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        th, td{
+            border: 1px solid black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th{
+            background-color: darkblue;
+            color: white;
+        }
+
+        h1{
+            color: darkblue;
+        }
+
+        h2{
+            color: darkgreen;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Student Result Dashboard</h1>
+
+    <h2>Semester Result</h2>
+
+    <table>
+
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+            <th>Grade</th>
+        </tr>
+
+        <tr>
+            <td>Web Development</td>
+            <td style="color:red; font-weight:bold;">95</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Python</td>
+            <td>88</td>
+            <td>A</td>
+        </tr>
+
+        <tr>
+            <td>Java</td>
+            <td>75</td>
+            <td>B</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
