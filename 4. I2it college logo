@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>I2IT College</title>
+        <style>
+
+            body{
+                background-color: antiquewhite;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+            }
+
+            table{
+                margin: auto;
+                border-collapse: collapse;
+                width: 60%;
+
+            }
+
+            table,th,td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            th{
+                background-color: lightblue;
+            }
+        </style>
+        <body>
+            <h1>i2it College</h1>
+            <img src = "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/International_Institute_of_Information_Technology%2C_Pune_Logo.svg/250px-International_Institute_of_Information_Technology%2C_Pune_Logo.svg.png"
+
+            <br><br>
+
+            <a href="https://www.isquareit.edu.in">
+                visit offical website
+            </a>
+            
+            <table>
+
+        <tr>
+            <th>Course</th>
+            <th>Subject</th>
+        </tr>
+
+        <tr>
+            <td>Computer Engineering</td>
+            <td>Web Development</td>
+        </tr>
+
+        <tr>
+            <td>IT</td>
+            <td>Python</td>
+        </tr>
+
+        <tr>
+            <td>ENTC</td>
+            <td>Java</td>
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
