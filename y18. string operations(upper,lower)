@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>String Operations</h2>
+
+<?php
+
+$str = "hello world";
+
+$num = "000056.8";
+
+echo "Original String: " . $str;
+
+echo "<br><br>";
+
+echo "Uppercase: " . strtoupper($str);
+
+echo "<br><br>";
+
+echo "Lowercase: " . strtolower($str);
+
+echo "<br><br>";
+
+echo "First Character Uppercase: " . ucfirst($str);
+
+echo "<br><br>";
+
+echo "All Words First Letter Uppercase: " . ucwords($str);
+
+echo "<br><br>";
+
+echo "Remove Leading Zeroes: " . ltrim($num, "0");
+
+echo "<br><br>";
+
+echo "Reverse String: " . strrev($str);
+
+echo "<br><br>";
+
+echo "String Length: " . strlen($str);
+
+echo "<br><br>";
+
+echo "Substring: " . substr($str, 0, 5);
+
+?>
+
+</body>
+
+</html>
