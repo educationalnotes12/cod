@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>I2IT TechCon 2025</title>
+
+    <style>
+
+        body{
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        h1{
+            text-align: center;
+            color: darkblue;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        form{
+            background-color: white;
+            width: 250px;
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>I2IT TechCon 2025</h1>
+
+    <a href="#">About</a>
+    <a href="#">Schedule</a>
+    <a href="#">Contact</a>
+
+    <br><br>
+
+    <table>
+
+        <tr>
+            <th>Time</th>
+            <th>Event</th>
+        </tr>
+
+        <tr>
+            <td>10 AM</td>
+            <td>Workshop</td>
+        </tr>
+
+    </table>
+
+    <br><br>
+
+    <form>
+
+        Name:
+        <input type="text">
+
+        <br><br>
+
+        Email:
+        <input type="email">
+
+        <br><br>
+
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
