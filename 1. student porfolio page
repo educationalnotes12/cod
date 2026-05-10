@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Portfolio</title>
+</head>
+
+<body>
+
+    <h1>Student Portfolio</h1>
+
+    <form>
+
+        <label><b>Name:</b></label>
+        <input type="text" placeholder="Enter your name">
+        <br><br>
+
+        <label><b>Course:</b></label>
+
+        <select>
+            <option>Computer Engineering</option>
+            <option>Information Technology</option>
+            <option>ENTC</option>
+            <option>Mechanical</option>
+        </select>
+
+        <br><br>
+
+        <h3>Hobbies</h3>
+
+        <input type="checkbox"> Cricket <br>
+        <input type="checkbox"> Coding <br>
+        <input type="checkbox"> Music <br><br>
+
+        <h3>Gender</h3>
+
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+</html>
