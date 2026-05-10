@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h2>Search Roll Number</h2>
+
+<form method="POST">
+
+    Enter Roll Number:
+    <input type="number" name="roll">
+
+    <br><br>
+
+    <input type="submit" value="Search">
+
+</form>
+
+<?php
+
+$students = array(101, 102, 103, 104, 105);
+
+if($_SERVER["REQUEST_METHOD"]=="POST"){
+
+    $roll = $_POST["roll"];
+
+    if(in_array($roll, $students)){
+
+        echo "<h3>Roll Number Found</h3>";
+
+    }
+    else{
+
+        echo "<h3>Roll Number Not Found</h3>";
+
+    }
+}
+
+?>
+
+</body>
+
+</html>
