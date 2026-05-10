@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Area Calculator</title>
+
+</head>
+
+<body>
+
+    <h2>Area Calculator</h2>
+
+    Value 1:
+    <input type="number" id="n1">
+
+    <br><br>
+
+    Value 2:
+    <input type="number" id="n2">
+
+    <br><br>
+
+    Shape:
+    <select id="shape">
+
+        <option value="rectangle">Rectangle</option>
+
+        <option value="triangle">Triangle</option>
+
+        <option value="circle">Circle</option>
+
+    </select>
+
+    <br><br>
+
+    <button onclick="calculate()">
+        Calculate
+    </button>
+
+    <h3 id="result"></h3>
+
+    <script>
+
+        function calculate(){
+
+            var n1 = parseFloat(document.getElementById("n1").value);
+
+            var n2 = parseFloat(document.getElementById("n2").value);
+
+            var shape = document.getElementById("shape").value;
+
+            var area;
+
+            switch(shape){
+
+                case "rectangle":
+
+                    area = n1 * n2;
+
+                    break;
+
+                case "triangle":
+
+                    area = 0.5 * n1 * n2;
+
+                    break;
+
+                case "circle":
+
+                    area = 3.14 * n1 * n1;
+
+                    break;
+
+            }
+
+            document.getElementById("result").innerHTML =
+            "Area = " + area;
+
+        }
+
+    </script>
+
+</body>
+
+</html>
