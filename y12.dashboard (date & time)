@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+<h1>Welcome to Dashboard</h1>
+
+<?php
+
+echo "Date: " . date("d-m-y");
+
+echo "<br>";
+
+echo "Time: " . date("h:i:s A");
+
+?>
+
+</body>
+
+</html>
